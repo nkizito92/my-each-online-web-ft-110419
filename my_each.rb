@@ -8,5 +8,5 @@ def my_each(array) # put argument(s) here
 end
 
 my_each([1,2,3,4,5,6]) do |i|
-  puts i
+   i
 end
