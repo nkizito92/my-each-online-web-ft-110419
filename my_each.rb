@@ -7,4 +7,6 @@ def my_each(array) # put argument(s) here
   end
 end
 
-my_each([1,2,3,4,5,6])
+my_each([1,2,3,4,5,6]) do |i|
+  puts i
+end
